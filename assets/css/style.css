@@ -1927,6 +1927,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-color: #000000;
 }
 
 .banner-section .swiper-slide:before {
@@ -2401,6 +2402,8 @@ section.welcome-section .author-wrapper .author-thumb img {
 .service-block-one .image {
     margin-bottom: 35px;
     display: inline-block;
+    width: 250px;
+    height: 250px;
 }
 
 .service-block-one .image img {
@@ -2408,6 +2411,8 @@ section.welcome-section .author-wrapper .author-thumb img {
     -webkit-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
+    width: 100%;
+    height: 100%;
 }
 
 .service-block-one .image:hover img {
@@ -3905,10 +3910,12 @@ section.gallery-section .col-lg-3 {
 
 .gallery-block_image {
     overflow: hidden;
+    height: 500px;
 }
 
 .gallery-block_image img {
     width: 100%;
+    height: 100%;
     -webkit-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
@@ -3968,6 +3975,17 @@ section.our-testimonials-section-two.style-two.style-two:before {
 .testimonial-block-two_image {
     margin-top: -46px;
     margin-bottom: 30px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #deb18aed;
+}
+.testimonial-block-two_image img{
+    position: relative;
+    margin: 0px 15px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }
 
 .testimonial-block-two_text {
@@ -4162,7 +4180,7 @@ ul.benefits-section_list img {
 }
 
 .benefits-section_image img {
-    max-width: none;
+    max-width: 100%;
 }
 
 .benefits-section_icon-box {
@@ -4307,11 +4325,15 @@ section.client-logo .image {
     margin-right: 20px;
     border: 2px dashed var(--theme-color);
     border-radius: 50%;
+    width: 110px;
+    height: 110px;
     padding: 15px;
 }
 
 .introduction-block-two_author-thumb img {
     border-radius: 50%;
+    width: 100%;
+    height: 100%;
 }
 
 .introduction-block-two_author-wrapper {
