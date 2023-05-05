@@ -2409,6 +2409,8 @@ section.welcome-section .author-wrapper .author-thumb {
 }
 section.welcome-section .author-wrapper .author-thumb img {
     border-radius: 50%;
+    width: 100px;
+    height: 100px;
 }
 /* services */
 
